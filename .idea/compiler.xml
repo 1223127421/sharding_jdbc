@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="read_write" />
+        <module name="sharding_jdbc" />
+        <module name="shuiping_fenbiao" />
+        <module name="shuiping_fenku_fenbiao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="read_write" target="1.8" />
+      <module name="sharding_jdbc" target="1.8" />
+      <module name="shuiping_fenbiao" target="1.8" />
+      <module name="shuiping_fenku_fenbiao" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="read_write" options="-parameters" />
+      <module name="sharding_jdbc" options="-parameters" />
+      <module name="shuiping_fenbiao" options="-parameters" />
+      <module name="shuiping_fenku_fenbiao" options="-parameters" />
+    </option>
+  </component>
+</project>
