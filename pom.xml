@@ -6,6 +6,7 @@
         <module>shuiping_fenbiao</module>
         <module>shuiping_fenku_fenbiao</module>
         <module>read_write</module>
+        <module>read_write_fenbiao</module>
     </modules>
 
     <parent>

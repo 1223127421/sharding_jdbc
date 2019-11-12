@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="read_write" />
+        <module name="read_write_fenbiao" />
         <module name="sharding_jdbc" />
         <module name="shuiping_fenbiao" />
         <module name="shuiping_fenku_fenbiao" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="read_write" target="1.8" />
+      <module name="read_write_fenbiao" target="1.8" />
       <module name="sharding_jdbc" target="1.8" />
       <module name="shuiping_fenbiao" target="1.8" />
       <module name="shuiping_fenku_fenbiao" target="1.8" />
@@ -22,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="read_write" options="-parameters" />
+      <module name="read_write_fenbiao" options="-parameters" />
       <module name="sharding_jdbc" options="-parameters" />
       <module name="shuiping_fenbiao" options="-parameters" />
       <module name="shuiping_fenku_fenbiao" options="-parameters" />

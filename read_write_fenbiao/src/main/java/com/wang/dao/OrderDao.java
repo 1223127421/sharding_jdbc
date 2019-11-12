@@ -14,10 +14,13 @@ import java.util.Map;
 @Component
 public interface OrderDao {
 
-    @Insert("insert into t_order(order_id,price,user_id,status) values(#{orderId},#{price},#{userId},#{status})")
+    @Insert("insert into t_order_ (order_id,price,user_id,status) values(#{orderId},#{price},#{userId},#{status})")
     int insertOrder(@Param("orderId") Long orderId, @Param("price") BigDecimal price, @Param("userId") Long userId, @Param("status") String status);
 
-    @Select("select * from t_order")
+    @Select("select * from t_order_")
     List<Map> list();
+
+    @Select("select order_id,price from t_order_ where 1=1 order by price desc limit 2,2")
+    List<Map> listLimit();
 
 }
