@@ -20,7 +20,7 @@ public class GuuidUtil {
      * @return
      */
     public static long getUUID() {
-        return SnowFlakeSingleton.Singleton.getInstance().nextId();
+        return SnowFlakeSingleton.Singleton.getInstance().createId();
     }
 
     /**
