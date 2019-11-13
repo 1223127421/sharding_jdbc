@@ -1,0 +1,5 @@
+shuiping_fenbiao    水平分表
+shuiping_fenku_fenbiao  水平分库分表
+read_write  读写分离
+read_write_fenbiao  读写分离+水平分表
+read_write_fenku_fenbiao    读写分离+水平分库+水平分表
