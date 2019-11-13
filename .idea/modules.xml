@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/read_write/read_write.iml" filepath="$PROJECT_DIR$/read_write/read_write.iml" />
       <module fileurl="file://$PROJECT_DIR$/read_write_fenbiao/read_write_fenbiao.iml" filepath="$PROJECT_DIR$/read_write_fenbiao/read_write_fenbiao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/read_write_fenku_fenbiao/read_write_fenku_fenbiao.iml" filepath="$PROJECT_DIR$/read_write_fenku_fenbiao/read_write_fenku_fenbiao.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding_jdbc.iml" filepath="$PROJECT_DIR$/sharding_jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/shuiping_fenbiao/shuiping_fenbiao.iml" filepath="$PROJECT_DIR$/shuiping_fenbiao/shuiping_fenbiao.iml" />
       <module fileurl="file://$PROJECT_DIR$/shuiping_fenku_fenbiao/shuiping_fenku_fenbiao.iml" filepath="$PROJECT_DIR$/shuiping_fenku_fenbiao/shuiping_fenku_fenbiao.iml" />
