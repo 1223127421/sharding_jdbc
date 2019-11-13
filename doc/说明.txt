@@ -1,3 +1,5 @@
+参考内容url：https://github.com/yudiandemingzi/spring-boot-sharding-sphere,这篇博客更详细。
+
 shuiping_fenbiao    水平分表
 shuiping_fenku_fenbiao  水平分库分表
 read_write  读写分离
