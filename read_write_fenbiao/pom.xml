@@ -9,5 +9,5 @@
     </parent>
 
     <artifactId>read_write_fenbiao</artifactId>
-
+    <packaging>jar</packaging>
 </project>

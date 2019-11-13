@@ -9,5 +9,6 @@
     </parent>
 
     <artifactId>shuiping_fenku_fenbiao</artifactId>
+    <packaging>jar</packaging>
 
 </project>

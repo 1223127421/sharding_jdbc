@@ -10,6 +10,10 @@
         <module>read_write_fenku_fenbiao</module>
     </modules>
 
+    <!--父项目的packaging是 pom类型，子项目的packaging是 jar类型。-->
+    <!--这是因为maven的多模块项目中，父模块必须以pom打包类型，同时以<modules>列出所有的子模块-->
+    <packaging>pom</packaging>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

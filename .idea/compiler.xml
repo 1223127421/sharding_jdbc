@@ -9,7 +9,6 @@
         <module name="read_write" />
         <module name="read_write_fenbiao" />
         <module name="read_write_fenku_fenbiao" />
-        <module name="sharding_jdbc" />
         <module name="shuiping_fenbiao" />
         <module name="shuiping_fenku_fenbiao" />
       </profile>

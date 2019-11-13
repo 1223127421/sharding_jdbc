@@ -9,5 +9,5 @@
     </parent>
 
     <artifactId>read_write</artifactId>
-
+    <packaging>jar</packaging>
 </project>
